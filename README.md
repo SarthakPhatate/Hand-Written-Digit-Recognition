@@ -9,3 +9,10 @@ Each digit is represented as a 28 x 28 grayscale image (examples from the MNIST 
 
 It’s worth noting that many libraries (such as scikit-learn) have built-in helper methods to download the MNIST dataset, cache it locally to disk, and then load it. These helper methods normally represent each image as a 784-d vector.
 
+
+Traning the dadaset:
+  The train.py file is used to train the dataset with 60000 images and also validate on 10000 images.
+  The weights of trained network is stored in weights.h5 file
+  
+Testing :
+  The test.py file is used to test the trained network on different images as in images folder
