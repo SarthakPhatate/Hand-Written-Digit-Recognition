@@ -44,7 +44,7 @@ model.load_weights("weights.h5")
 
 # randomly select a few testing digits
 for i in range(1,28):
-	image = cv2.imread("images2/"+str(i)+".jpg",0)
+	image = cv2.imread("images/"+str(i)+".jpg",0)
 	ret, image = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
 	image1 = image.copy()
 	testData = image.reshape((1, 28, 28, 1))
